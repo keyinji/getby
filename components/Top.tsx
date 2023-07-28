@@ -10,7 +10,7 @@ const Top = (props: Props) => {
   return (
     <div className="container mx-auto flex justify-between items-center w-full">
       <section className="w-1/2 flex flex-col justify-center p-10">
-        <h1 className="text-7xl font-semibold py-8 w-3/4">
+        <h1 className="text-7xl font-bold py-8 w-3/4">
           Journey with <span className="text-yellow-400">Get</span>By
         </h1>
         <p className="text-lg">
