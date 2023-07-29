@@ -48,7 +48,7 @@ const Middle = () => {
       <div className="grid md:grid-cols-4 gap-8">
         {destinations.map((destination) => (
           <div className="">
-            <Image className="rounded-md h-64 w-64" alt="" src={destination.img} />
+            <Image className="rounded-md h-64 w-64 shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30" alt="" src={destination.img} />
             <h1 className="text-xl font-semibold">{destination.name}</h1>
             <p className="w-64">{destination.description}</p>
             <div className="font-semibold">{destination.stars}⭐</div>
